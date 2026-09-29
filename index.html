@@ -2,20 +2,42 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
 <title>Chronicle</title>
+<meta name="description" content="Chronicle: a private work journal, planner and money tracker for Android.">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="aurora" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+  <nav><div class="bar glass">
+    <a href="./" aria-current="page"><img src="icon.png" alt="">Chronicle</a>
+    <a href="privacy.html">Privacy<span class="label-long">&nbsp;policy</span></a>
+    <a href="terms.html">Terms</a>
+  </div></nav>
 <main>
-  <div class="card">
+  <section class="hero">
+    <img class="icon" src="icon.png" alt="Chronicle app icon">
     <h1>Chronicle</h1>
-    <p class="muted">A personal Android app for keeping your own record: a daily work journal, to-dos and goals, performance insights, and money you spend and receive.</p>
-    <h2>Your data stays yours</h2>
-    <p>Everything is stored on your phone. If you sign in with Google, Chronicle backs it up to your own Google Drive and keeps a personal Google Sheet there. There are no Chronicle servers, no ads and no tracking.</p>
-    <p><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of use</a></p>
+    <p>Your work, your plans and your money, recorded day by day. Private by design.</p>
+    <a class="pill-button" href="privacy.html">How your data is handled</a>
+  </section>
+
+  <div class="grid">
+    <div class="tile glass"><div class="glyph journal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v16H6.5A1.5 1.5 0 0 0 5 20.5z"/><path d="M5 20.5A1.5 1.5 0 0 0 6.5 22H19v-3"/><path d="M9 8h6M9 11.5h4"/></svg></div><h3>Journal</h3><p>Log what you worked on, its impact and hours, in seconds.</p></div>
+    <div class="tile glass"><div class="glyph plan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6.5l1.8 1.8L9 5"/><path d="M4 13.5l1.8 1.8L9 12"/><path d="M12.5 7h7.5M12.5 14h7.5M4.5 20h15.5"/></svg></div><h3>Plan</h3><p>To-dos and goals with deadlines. Half-fill in a hurry, finish later.</p></div>
+    <div class="tile glass"><div class="glyph insights"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 20V11M12 20V5M19 20v-6"/></svg></div><h3>Insights</h3><p>Charts of your time, categories and goals, ready for appraisal.</p></div>
+    <div class="tile glass"><div class="glyph money"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 5h10M7 9h10M7 5c5 0 6 4 0 4h-.5L15 19"/></svg></div><h3>Money</h3><p>Payments recorded from bank SMS, UPI apps and statements, sorted by financial year.</p></div>
   </div>
-  <footer>Chronicle is free and has no paid features.</footer>
+
+  <div class="card glass feature">
+    <h2>Your data stays yours</h2>
+    <p>Everything lives on your phone. Sign in with Google and Chronicle backs it up to your own Google Drive and keeps a personal Google Sheet there. No Chronicle servers, no ads, no tracking, and nothing to pay.</p>
+  </div>
+
+  <footer>Chronicle for Android · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></footer>
 </main>
 </body>
 </html>
